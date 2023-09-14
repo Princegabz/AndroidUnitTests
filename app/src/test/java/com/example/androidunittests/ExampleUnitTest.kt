@@ -31,7 +31,7 @@ class ExampleUnitTest {
     @Test
     fun TestXhosa() {
         val w = Words();
-        val expected = "Hambo"
+        val expected = "Molo"
         val actual = w.Xhosa()
         assertEquals(expected, actual)
     }
