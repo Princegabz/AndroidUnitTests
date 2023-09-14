@@ -4,14 +4,22 @@ class Words {
 
     fun English(): String
     {
-        return "Crap"
+        return "Hello"
     }
-    fun Afri(): String
+    fun Zulu(): String
     {
-        return "Kak"
+        return "Sawubona"
     }
     fun Xhosa(): String
     {
-        return "uKunya"
+        return "Molo"
+    }
+    fun French(): String
+    {
+        return "Bonjour"
+    }
+    fun Spanish(): String
+    {
+        return "Ola"
     }
 }

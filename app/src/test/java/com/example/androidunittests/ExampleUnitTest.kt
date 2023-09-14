@@ -15,8 +15,18 @@ class ExampleUnitTest {
         assertEquals(4, 2 + 2)
     }
     @Test
-    fun IWillFail() {
-        assertEquals("Jack", "jack")
+    fun TestEnglish() {
+        val w = Words();
+        val expected = "Hello"
+        val actual = w.English()
+        assertEquals(expected, actual)
+    }
+    @Test
+    fun TestZulu() {
+        val w = Words();
+        val expected = "Sawubona"
+        val actual = w.Zulu()
+        assertEquals(expected, actual)
     }
     @Test
     fun TestXhosa() {
@@ -26,17 +36,17 @@ class ExampleUnitTest {
         assertEquals(expected, actual)
     }
     @Test
-    fun TestAfrikaans() {
+    fun TestFrench() {
         val w = Words();
-        val expected = "Kak"
-        val actual = w.Afri()
+            val expected = "Bonjour"
+        val actual = w.French()
         assertEquals(expected, actual)
     }
     @Test
-    fun TestEnglish() {
+    fun TestSpanish() {
         val w = Words();
-        val expected = "Crap"
-        val actual = w.English()
+        val expected = "Ola"
+        val actual = w.Spanish()
         assertEquals(expected, actual)
     }
 }
